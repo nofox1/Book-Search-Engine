@@ -18,7 +18,7 @@ const newApolloServer = async () => {
 
   app.use(express.urlencoded({ extended: false }));
   app.use(express.json());
-  console.log("test");
+
   try {
     app.use(
       "/graphql",
